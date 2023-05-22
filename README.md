@@ -65,8 +65,10 @@
 
 > Command:
 > `curl -F upload=@{path to the "license.key" file} http://{your IP or domain}/internal/license`
+> 
 > Example:
 > `curl -F upload=@license.key http://13.58.28.136/internal/license`
+> 
 > Note: Please make sure to adjust the protocol type (HTTP or HTTPS)
 > according to the one you have set up. This ensures that the command
 > works correctly, especially when dealing with URLs starting with
